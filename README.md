@@ -4,13 +4,13 @@ Personal Vim and Tmux configuration.
 Plugins managed with [Pathogen](https://github.com/tpope/vim-pathogen)
 
 Plain simple Vim and Tmux confing. Intended to use Vim as purely as possible,
-with a small ammount of plugins.
+with the least ammount of plugins.
 
 ### Plugins:
 
 * [Pathogen](https://github.com/tpope/vim-pathogen) - As plugin manager.
 * [Ale](https://github.com/w0rp/ale) - For linting on the fly. 
-* Syntax support plugins for JS, JSX, Vue, HBS and Elixir.
+* Syntax support plugins
 
 ### File Browser
 

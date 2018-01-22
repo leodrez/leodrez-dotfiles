@@ -1,4 +1,4 @@
-" VIM SETUP
+" VIM CONFIG 
 
 " Pathogen
 execute pathogen#infect()
@@ -25,6 +25,10 @@ set matchtime=3
 
 " Autoindent
 set autoindent
+
+" Omni completion
+filetype plugin on
+set omnifunc=syntaxcomplete#Complete
 
 " STATUSLINE
 
@@ -101,6 +105,6 @@ highlight clear ALEErrorSign
 highlight clear ALEWarningSign
 
 " Linter
-let g:ale_linters = {
-\   'javascript': ['eslint'],
-\}
+
+" Default typescript plugin indenter disable
+let g:typescript_indent_disable = 1
